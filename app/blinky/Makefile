@@ -2,7 +2,10 @@
 APPLICATION = blinky
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?= native
+BOARD ?= adafruit-feather-nrf52840-sense
+
+# Change Channel if different one used
+CFLAGS += "-DCONFIG_IEEE802154_DEFAULT_CHANNEL=23 -DCONFIG_GNRC_IPV6_NIB_SLAAC=1"
 
 # This has to be the absolute path to the RIOT base directory:
 RIOTBASE ?= $(CURDIR)/../../RIOT

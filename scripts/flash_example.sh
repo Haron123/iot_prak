@@ -1,0 +1,2 @@
+cd ${CODE_DIR}
+CFLAGS="-DCONFIG_IEEE802154_DEFAULT_CHANNEL=23 -DCONFIG_GNRC_IPV6_NIB_SLAAC=1" BOARD=adafruit-feather-nrf52840-sense make -j4 -C ${EXAMPLE} all flash term
