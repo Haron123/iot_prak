@@ -1,8 +1,8 @@
 # name of your application
-APPLICATION = blinky
+APPLICATION = saul_test
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?= adafruit-feather-nrf52840-sense
+BOARD ?= esp32-wroom-32
 
 # Change Channel if different one used
 CFLAGS += "-DCONFIG_IEEE802154_DEFAULT_CHANNEL=23 -DCONFIG_GNRC_IPV6_NIB_SLAAC=1"
@@ -20,5 +20,10 @@ QUIET ?= 1
 
 # Use a peripheral timer for the delay, if available
 FEATURES_OPTIONAL += periph_timer
+
+# Additional modules
+USEMODULE += saul_default
+USEMODULE += shell_cmds_default
+USEMODULE += ps
 
 include $(RIOTBASE)/Makefile.include

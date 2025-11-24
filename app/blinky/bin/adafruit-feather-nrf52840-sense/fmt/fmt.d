@@ -1,109 +1,85 @@
-/home/pi/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/fmt/fmt.o: \
- /home/pi/iot_prak/RIOT/sys/fmt/fmt.c \
- /home/pi/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h \
- /home/pi/iot_prak/RIOT/core/lib/include/assert.h \
- /usr/lib/gcc/arm-none-eabi/8.3.1/include/stdint.h \
- /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
- /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
- /usr/include/newlib/nano/newlib.h /usr/include/newlib/_newlib_version.h \
- /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
- /usr/include/newlib/sys/features.h \
- /usr/lib/gcc/arm-none-eabi/8.3.1/include/stddef.h \
- /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
- /usr/include/newlib/machine/_default_types.h \
- /usr/include/newlib/sys/lock.h \
- /usr/lib/gcc/arm-none-eabi/8.3.1/include/stdbool.h \
- /home/pi/iot_prak/RIOT/core/include/stdio.h /usr/include/newlib/stdio.h \
- /usr/include/newlib/_ansi.h /usr/include/newlib/sys/cdefs.h \
- /usr/lib/gcc/arm-none-eabi/8.3.1/include/stdarg.h \
- /usr/include/newlib/sys/types.h /usr/include/newlib/sys/_stdint.h \
- /usr/include/newlib/sys/_pthreadtypes.h \
- /usr/include/newlib/machine/types.h /usr/include/newlib/sys/stdio.h \
- /usr/include/newlib/string.h /usr/include/newlib/sys/string.h \
- /usr/include/newlib/time.h /usr/include/newlib/machine/time.h \
- /usr/include/newlib/sys/timespec.h /usr/include/newlib/sys/_timespec.h \
- /usr/include/newlib/unistd.h /usr/include/newlib/sys/unistd.h \
- /home/pi/iot_prak/RIOT/core/lib/include/compiler_hints.h \
- /home/pi/iot_prak/RIOT/core/lib/include/container.h \
- /home/pi/iot_prak/RIOT/sys/include/fmt.h \
- /home/pi/iot_prak/RIOT/core/lib/include/modules.h
-
-/home/pi/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h:
-
-/home/pi/iot_prak/RIOT/core/lib/include/assert.h:
-
-/usr/lib/gcc/arm-none-eabi/8.3.1/include/stdint.h:
-
-/usr/include/newlib/errno.h:
-
-/usr/include/newlib/sys/errno.h:
-
-/usr/include/newlib/sys/reent.h:
-
-/usr/include/newlib/_ansi.h:
-
-/usr/include/newlib/nano/newlib.h:
-
-/usr/include/newlib/_newlib_version.h:
-
-/usr/include/newlib/sys/config.h:
-
-/usr/include/newlib/machine/ieeefp.h:
-
-/usr/include/newlib/sys/features.h:
-
-/usr/lib/gcc/arm-none-eabi/8.3.1/include/stddef.h:
-
-/usr/include/newlib/sys/_types.h:
-
-/usr/include/newlib/machine/_types.h:
-
-/usr/include/newlib/machine/_default_types.h:
-
-/usr/include/newlib/sys/lock.h:
-
-/usr/lib/gcc/arm-none-eabi/8.3.1/include/stdbool.h:
-
-/home/pi/iot_prak/RIOT/core/include/stdio.h:
-
-/usr/include/newlib/stdio.h:
-
-/usr/include/newlib/_ansi.h:
-
-/usr/include/newlib/sys/cdefs.h:
-
-/usr/lib/gcc/arm-none-eabi/8.3.1/include/stdarg.h:
-
-/usr/include/newlib/sys/types.h:
-
-/usr/include/newlib/sys/_stdint.h:
-
-/usr/include/newlib/sys/_pthreadtypes.h:
-
-/usr/include/newlib/machine/types.h:
-
-/usr/include/newlib/sys/stdio.h:
-
-/usr/include/newlib/string.h:
-
-/usr/include/newlib/sys/string.h:
-
-/usr/include/newlib/time.h:
-
-/usr/include/newlib/machine/time.h:
-
-/usr/include/newlib/sys/timespec.h:
-
-/usr/include/newlib/sys/_timespec.h:
-
-/usr/include/newlib/unistd.h:
-
-/usr/include/newlib/sys/unistd.h:
-
-/home/pi/iot_prak/RIOT/core/lib/include/compiler_hints.h:
-
-/home/pi/iot_prak/RIOT/core/lib/include/container.h:
-
-/home/pi/iot_prak/RIOT/sys/include/fmt.h:
-
-/home/pi/iot_prak/RIOT/core/lib/include/modules.h:
+/home/haron/Documents/gits/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/fmt/fmt.o: \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/fmt/fmt.c \
+ /home/haron/Documents/gits/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/assert.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /usr/arm-none-eabi/include/errno.h \
+ /usr/arm-none-eabi/include/sys/errno.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/newlib-nano/newlib.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/include/stdio.h \
+ /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdarg.h \
+ /usr/arm-none-eabi/include/sys/stdio.h \
+ /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /usr/arm-none-eabi/include/time.h \
+ /usr/arm-none-eabi/include/machine/time.h \
+ /usr/arm-none-eabi/include/sys/types.h \
+ /usr/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /usr/arm-none-eabi/include/machine/types.h \
+ /usr/arm-none-eabi/include/sys/timespec.h \
+ /usr/arm-none-eabi/include/sys/_timespec.h \
+ /usr/arm-none-eabi/include/unistd.h \
+ /usr/arm-none-eabi/include/sys/unistd.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/compiler_hints.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/container.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/modules.h
+/home/haron/Documents/gits/iot_prak/app/blinky/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/assert.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h:
+/usr/arm-none-eabi/include/stdint.h:
+/usr/arm-none-eabi/include/machine/_default_types.h:
+/usr/arm-none-eabi/include/sys/features.h:
+/usr/arm-none-eabi/include/_newlib_version.h:
+/usr/arm-none-eabi/include/sys/_intsup.h:
+/usr/arm-none-eabi/include/sys/_stdint.h:
+/usr/arm-none-eabi/include/errno.h:
+/usr/arm-none-eabi/include/sys/errno.h:
+/usr/arm-none-eabi/include/sys/reent.h:
+/usr/arm-none-eabi/include/_ansi.h:
+/usr/arm-none-eabi/include/newlib-nano/newlib.h:
+/usr/arm-none-eabi/include/sys/config.h:
+/usr/arm-none-eabi/include/machine/ieeefp.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h:
+/usr/arm-none-eabi/include/sys/cdefs.h:
+/usr/arm-none-eabi/include/sys/_types.h:
+/usr/arm-none-eabi/include/machine/_types.h:
+/usr/arm-none-eabi/include/sys/lock.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/include/stdio.h:
+/usr/arm-none-eabi/include/stdio.h:
+/usr/arm-none-eabi/include/_ansi.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdarg.h:
+/usr/arm-none-eabi/include/sys/stdio.h:
+/usr/arm-none-eabi/include/string.h:
+/usr/arm-none-eabi/include/sys/string.h:
+/usr/arm-none-eabi/include/time.h:
+/usr/arm-none-eabi/include/machine/time.h:
+/usr/arm-none-eabi/include/sys/types.h:
+/usr/arm-none-eabi/include/sys/_pthreadtypes.h:
+/usr/arm-none-eabi/include/machine/types.h:
+/usr/arm-none-eabi/include/sys/timespec.h:
+/usr/arm-none-eabi/include/sys/_timespec.h:
+/usr/arm-none-eabi/include/unistd.h:
+/usr/arm-none-eabi/include/sys/unistd.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/compiler_hints.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/container.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/modules.h:

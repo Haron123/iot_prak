@@ -23,6 +23,8 @@
 #include "timex.h"
 #include "ztimer.h"
 
+//#include "boardcontrol.h"
+
 static void delay(void)
 {
     if (IS_USED(MODULE_ZTIMER)) {
@@ -46,6 +48,8 @@ static void delay(void)
 
 int main(void)
 {
+    //saul_reg_t *LED_reg = setup_led();
+
     while (1) {
         delay();
 #ifdef LED0_TOGGLE
