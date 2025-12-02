@@ -157,11 +157,12 @@
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/pm_layered.h \
  /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/xfa.h \
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/flash_utils.h \
+ /home/haron/Documents/gits/iot_prak/app/coap_test/custom_coap.h \
  /home/haron/Documents/gits/iot_prak/app/coap_test/boardcontrol.h \
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/saul_reg.h \
  /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/saul.h \
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/phydat.h \
- /home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/utils.h \
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h \
  /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/newlib/platform_include/time.h \
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/time.h \
@@ -171,8 +172,12 @@
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
- /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/utils.h \
- /home/haron/Documents/gits/iot_prak/RIOT/sys/include/od.h
+ /home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/od.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h
 /home/haron/Documents/gits/iot_prak/app/coap_test/bin/esp32-wroom-32/riotbuild/riotbuild.h:
 /home/haron/Documents/gits/iot_prak/RIOT/core/include/stdio.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h:
@@ -330,11 +335,12 @@
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/pm_layered.h:
 /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/xfa.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/flash_utils.h:
+/home/haron/Documents/gits/iot_prak/app/coap_test/custom_coap.h:
 /home/haron/Documents/gits/iot_prak/app/coap_test/boardcontrol.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/saul_reg.h:
 /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/saul.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/phydat.h:
-/home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/utils.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h:
 /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/newlib/platform_include/time.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/time.h:
@@ -344,5 +350,9 @@
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/signal.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h:
-/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/utils.h:
+/home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/od.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h:

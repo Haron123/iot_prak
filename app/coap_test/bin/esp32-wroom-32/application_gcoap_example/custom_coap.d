@@ -154,7 +154,30 @@
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_timespec.h \
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/signal.h \
  /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h \
- /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h
+ /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h \
+ /home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/od.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/shell.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/periph/pm.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/cpu/esp32/include/periph_cpu.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/ledc_types.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/clk_tree_defs.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/spi_types.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/esp_common/include/esp_attr.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/esp_common/include/esp_bit_defs.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/register/soc/ledc_struct.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/periph_defs.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/gpio_types.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/gpio_num.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/usbdev_synopsys_dwc2.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/cpu/esp32/include/periph_cpu_esp32.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/pm_layered.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/xfa.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/flash_utils.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h
 /home/haron/Documents/gits/iot_prak/app/coap_test/bin/esp32-wroom-32/riotbuild/riotbuild.h:
 /home/haron/Documents/gits/iot_prak/app/coap_test/custom_coap.h:
 /home/haron/Documents/gits/iot_prak/app/coap_test/boardcontrol.h:
@@ -310,3 +333,26 @@
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/signal.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/signal.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_sigset.h:
+/home/haron/Documents/gits/iot_prak/app/coap_test/gcoap_example.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/od.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/shell.h:
+/home/haron/Documents/gits/iot_prak/RIOT/drivers/include/periph/pm.h:
+/home/haron/Documents/gits/iot_prak/RIOT/cpu/esp32/include/periph_cpu.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/ledc_types.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/clk_tree_defs.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/spi_types.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/esp_common/include/esp_attr.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/esp_common/include/esp_bit_defs.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/register/soc/ledc_struct.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/periph_defs.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/hal/include/hal/gpio_types.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/esp32_sdk/components/soc/esp32/include/soc/gpio_num.h:
+/home/haron/Documents/gits/iot_prak/RIOT/drivers/include/usbdev_synopsys_dwc2.h:
+/home/haron/Documents/gits/iot_prak/RIOT/cpu/esp32/include/periph_cpu_esp32.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/pm_layered.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/xfa.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/flash_utils.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h:

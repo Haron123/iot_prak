@@ -21,6 +21,7 @@
 #include "net/gcoap.h"
 #include "shell.h"
 
+#include "custom_coap.h"
 #include "boardcontrol.h"
 #include "gcoap_example.h"
 
@@ -97,6 +98,13 @@ static int saul_cmd(int argc, char** argv)
     return 1;
 }
 
+static int test_cmd(int argc, char** argv)
+{
+    set_led();
+
+    return 1;
+}
+
 int main(void)
 {
     /* for the thread running the shell */
@@ -108,6 +116,7 @@ int main(void)
     static const shell_command_t shell_commands[] = 
     {
         {"saul", "Interface with SAUL devices", saul_cmd},
+        {"test", "test", test_cmd},
         { NULL, NULL, NULL },
     };
 

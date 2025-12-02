@@ -183,6 +183,9 @@
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/saul_reg.h \
  /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/saul.h \
  /home/haron/Documents/gits/iot_prak/RIOT/sys/include/phydat.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h \
  /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h
 /home/haron/Documents/gits/iot_prak/app/coap_test/bin/esp32-wroom-32/riotbuild/riotbuild.h:
 /home/haron/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdint.h:
@@ -367,4 +370,7 @@
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/saul_reg.h:
 /home/haron/Documents/gits/iot_prak/RIOT/drivers/include/saul.h:
 /home/haron/Documents/gits/iot_prak/RIOT/sys/include/phydat.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/util.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/sock/config.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/uri_parser.h:
 /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/debug.h:
