@@ -46,11 +46,16 @@ ssize_t _saul_list(coap_pkt_t* pdu, uint8_t *buf, size_t len, coap_request_ctx_t
 
 static void write_payload_to_saul(coap_pkt_t* pdu)
 {
-    int16_t id = atoi(strtok((char*)pdu->payload, " "));
-    int16_t val1 = atoi(strtok(NULL, " "));
-    int16_t val2 = atoi(strtok(NULL, " "));
-    int16_t val3 = atoi(strtok(NULL, " "));
+    int16_t id = atoi(strtok((char*)pdu->payload, ","));
+    int16_t val1 = atoi(strtok(NULL, ","));
+    int16_t val2 = atoi(strtok(NULL, ","));
+    int16_t val3 = atoi(strtok(NULL, ","));
     phydat_t data = {{val1, val2, val3}, 0, 0};
+    
+    printf("id: %d\n", id);
+    printf("val1: %d\n", val1);
+    printf("val2: %d\n", val2);
+    printf("val3: %d\n", val3);
 
     saul_reg_write(saul_reg_find_nth(id), &data);
 }
@@ -73,6 +78,7 @@ ssize_t _saul_action(coap_pkt_t* pdu, uint8_t *buf, size_t len, coap_request_ctx
                 memcpy(payload, (char*)pdu->payload, sizeof(payload));
                 id = atoi(payload);
             }
+            printf("Someone asked to read ID: %d\n", id);
 
             /* Get Information about device ID as JSON */
             char json_buf[64];
@@ -113,7 +119,9 @@ static char _last_req_uri[CONFIG_URI_MAX];
 static void _my_resp_handler(const gcoap_request_memo_t *memo, coap_pkt_t* pdu,
                           const sock_udp_ep_t *remote)
 {
-    
+    (void)remote;
+    (void)memo;
+    (void)pdu;
 }
 
 static int _uristr2remote(const char *uri, sock_udp_ep_t *remote, const char **path,
@@ -160,29 +168,43 @@ static gcoap_socket_type_t _get_tl(const char *uri)
     return GCOAP_SOCKET_TYPE_UNDEF;
 }
 
-void set_led(void)
+void coap_send_string(char *uri, char *payload, int method)
 {
-    //char *method_codes[] = {"ping", "get", "post", "put"};
+    int code_pos = method;
+
     uint8_t buf[CONFIG_GCOAP_PDU_BUF_SIZE];
     coap_pkt_t pdu;
     ssize_t len;
-    //unsigned observe = false;
-    //uint32_t obs_value = COAP_OBS_REGISTER;
     sock_udp_ep_t remote;
-    int code_pos = 3;
 
-    const char *uri = "coap://[::1]:5683/saul/action";
-    const char *path = "saul/action";
+    //const char *uri = "coap://[::1]/saul/action";
+    const char *path = "";
 
-    _uristr2remote(uri, &remote, &path, _last_req_uri, sizeof(_last_req_uri));
+    if(_uristr2remote(uri, &remote, &path, _last_req_uri, sizeof(_last_req_uri)) != 0)
+    {
+        printf("str2remote error\n");
+    }
 
-    gcoap_req_init(&pdu, buf, CONFIG_GCOAP_PDU_BUF_SIZE, code_pos, NULL);
-    
+    if(gcoap_req_init(&pdu, buf, CONFIG_GCOAP_PDU_BUF_SIZE, code_pos, NULL) < 0)
+    {
+        printf("init error\n");
+    }
+
     coap_opt_add_uri_path(&pdu, path);
     coap_hdr_set_type(pdu.hdr, COAP_TYPE_NON);
 
-    len = coap_opt_finish(&pdu, COAP_OPT_FINISH_NONE);
+    len = coap_opt_finish(&pdu, COAP_OPT_FINISH_PAYLOAD);
+    printf("len: %d\n", len);
+
     gcoap_socket_type_t tl = _get_tl(_last_req_uri);
 
-    gcoap_req_send(buf, len, &remote, NULL, _my_resp_handler, NULL, tl);
+    int payload_len = strlen(payload);
+    memcpy(pdu.payload, payload, payload_len);
+    len += payload_len;
+
+    printf("%s\n", pdu.payload);
+    
+    len = gcoap_req_send(buf, len, &remote, NULL, _my_resp_handler, NULL, tl);
+
+    printf("len: %d\n", len);
 }

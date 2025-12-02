@@ -4,7 +4,8 @@
 APPLICATION = gcoap_example
 
 # If no BOARD is found in the environment, use this default:
-BOARD ?= esp32-wroom-32
+#BOARD ?= esp32-wroom-32
+BOARD = adafruit-feather-nrf52840-sense
 
 # Change Channel if different one used
 CFLAGS += "-DCONFIG_IEEE802154_DEFAULT_CHANNEL=23"

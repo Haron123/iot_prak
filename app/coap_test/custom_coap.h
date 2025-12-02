@@ -36,7 +36,6 @@
 
 ssize_t _saul_list(coap_pkt_t *pdu, uint8_t *buf, size_t len, coap_request_ctx_t *ctx);
 ssize_t _saul_action(coap_pkt_t *pdu, uint8_t *buf, size_t len, coap_request_ctx_t *ctx);
-
-void set_led(void);
+void coap_send_string(char *uri, char *payload, int method);
 
 #endif // CUSTOM_COAP_C_

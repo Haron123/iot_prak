@@ -18,12 +18,12 @@ void print_saul_device(int id)
 {
     saul_reg_t *saul = saul_reg_find_nth(id);
 
-    if(!saul) {printf("no Device with ID %d found", id); return;}
+    if(!saul) {printf("no Device with ID %d found\n", id); return;}
 
     phydat_t data;
     int dimension = saul_reg_read(saul, &data);
 
-    if(dimension <= 0) {printf("Error reading Device with ID %d", id); return;}
+    if(dimension <= 0) {printf("Error reading Device with ID %d\n", id); return;}
 
     phydat_dump(&data, dimension);
 }

@@ -100,7 +100,9 @@ static int saul_cmd(int argc, char** argv)
 
 static int test_cmd(int argc, char** argv)
 {
-    set_led();
+    (void)argc;
+    (void)argv;
+    coap_send_string("coap://[::1]/saul/action", "16,0,100,100", COAP_METHOD_PUT);
 
     return 1;
 }
