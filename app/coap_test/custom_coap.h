@@ -1,6 +1,10 @@
 #ifndef CUSTOM_COAP_C_
 #define CUSTOM_COAP_C_
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #include "boardcontrol.h"
 #include "net/gcoap.h"
 #include "net/utils.h"
@@ -37,5 +41,9 @@
 ssize_t _saul_list(coap_pkt_t *pdu, uint8_t *buf, size_t len, coap_request_ctx_t *ctx);
 ssize_t _saul_action(coap_pkt_t *pdu, uint8_t *buf, size_t len, coap_request_ctx_t *ctx);
 void coap_send_string(char *uri, char *payload, int method);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // CUSTOM_COAP_C_

@@ -10,7 +10,7 @@ BOARD = adafruit-feather-nrf52840-sense
 # Change Channel if different one used
 CFLAGS += "-DCONFIG_IEEE802154_DEFAULT_CHANNEL=23"
 CFLAGS += "-DCONFIG_GNRC_IPV6_NIB_SLAAC=1"
-CFLAGS += "-DCONFIG_GCOAP_PDU_BUF_SIZE=256"
+CFLAGS += "-DCONFIG_GCOAP_PDU_BUF_SIZE=300"
 
 # This has to be the absolute path to the RIOT base directory:
 RIOTBASE ?= $(CURDIR)/../../RIOT
@@ -60,6 +60,8 @@ USEMODULE += shell_cmds_default
 USEMODULE += uri_parser
 USEMODULE += ps
 USEMODULE += saul_default
+USEMODULE += sema
+USEMODULE += ztimer
 
 
 # /rtc resource for regular observe notifications

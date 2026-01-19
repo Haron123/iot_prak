@@ -1,0 +1,32 @@
+@startuml rd_exchange
+
+participant "Player1" as p1
+participant "Resource Directory" as rd
+participant "Player2" as p2
+participant "GUI" as gui
+
+== P1 Finds RD ==
+p1 -> rd: Ask for RD with Multicast
+p1 -> p2: Ask for RD with Multicast
+rd -> p1: Respond with Path
+
+== P2 Finds RD ==
+p2 -> rd: Ask for RD with Multicast
+p2 -> p1: Ask for RD with Multicast
+rd -> p2: Respond with Path
+
+== P2 does not find other player ==
+p2 -> rd: Check for other Players
+p2 -> rd: Advertise Lobby waiting for one player
+
+== P1 does find P2 ==
+p1 -> rd: Check for other Players
+p1 -> rd: Get other players resource
+p1 -> p2: Request to start game
+p2 -> p1: Ack request
+p2 -> rd: Deadvertise Lobby
+
+p1 -> gui: Periodically send ID, Position, Lobby-ID
+p2 -> gui: Periodically send ID, Position, Lobby-ID
+
+@enduml

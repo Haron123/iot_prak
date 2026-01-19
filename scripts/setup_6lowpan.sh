@@ -6,3 +6,5 @@ sudo ip link set lowpan0 up
 
 systemctl start radvd
 sudo ip addr add 2001:67c:254:b0b2:affe:3000::1/84 dev lowpan0
+sudo ip addr add ff05::fe dev lowpan0 autojoin
+sudo sysctl -w net.ipv6.conf.all.forwarding=1

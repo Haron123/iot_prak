@@ -1,0 +1,124 @@
+/home/haron/Documents/gits/iot_prak/app/tennis/bin/adafruit-feather-nrf52840-sense/ipv6_addr/ipv6_addr.o: \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/net/network_layer/ipv6/addr/ipv6_addr.c \
+ /home/haron/Documents/gits/iot_prak/app/tennis/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/assert.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/_newlib_version.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h \
+ /usr/arm-none-eabi/include/sys/_stdint.h \
+ /usr/arm-none-eabi/include/stdlib.h \
+ /usr/arm-none-eabi/include/machine/ieeefp.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/newlib-nano/newlib.h \
+ /usr/arm-none-eabi/include/sys/config.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h \
+ /usr/arm-none-eabi/include/sys/reent.h \
+ /usr/arm-none-eabi/include/_ansi.h \
+ /usr/arm-none-eabi/include/sys/cdefs.h \
+ /usr/arm-none-eabi/include/sys/_types.h \
+ /usr/arm-none-eabi/include/machine/_types.h \
+ /usr/arm-none-eabi/include/sys/lock.h \
+ /usr/arm-none-eabi/include/machine/stdlib.h \
+ /usr/arm-none-eabi/include/string.h \
+ /usr/arm-none-eabi/include/sys/string.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/include/stdio.h \
+ /usr/arm-none-eabi/include/stdio.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdarg.h \
+ /usr/arm-none-eabi/include/sys/stdio.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h \
+ /usr/arm-none-eabi/include/time.h \
+ /usr/arm-none-eabi/include/machine/time.h \
+ /usr/arm-none-eabi/include/sys/types.h \
+ /usr/arm-none-eabi/include/sys/_pthreadtypes.h \
+ /usr/arm-none-eabi/include/machine/types.h \
+ /usr/arm-none-eabi/include/sys/timespec.h \
+ /usr/arm-none-eabi/include/sys/_timespec.h \
+ /usr/arm-none-eabi/include/unistd.h \
+ /usr/arm-none-eabi/include/sys/unistd.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/bitarithm.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/cpu/nrf52/include/cpu_conf.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_name_change.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/core_cm4.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_version.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_compiler.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_gcc.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/mpu_armv7.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_bitfields.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_peripherals.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/kernel_defines.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/modules.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/riot_version.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/compiler_hints.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/container.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/ipv6/addr.h \
+ /usr/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/byteorder.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/endian.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/unaligned.h \
+ /home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/ipv4/addr.h
+/home/haron/Documents/gits/iot_prak/app/tennis/bin/adafruit-feather-nrf52840-sense/riotbuild/riotbuild.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/assert.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h:
+/usr/arm-none-eabi/include/stdint.h:
+/usr/arm-none-eabi/include/machine/_default_types.h:
+/usr/arm-none-eabi/include/sys/features.h:
+/usr/arm-none-eabi/include/_newlib_version.h:
+/usr/arm-none-eabi/include/sys/_intsup.h:
+/usr/arm-none-eabi/include/sys/_stdint.h:
+/usr/arm-none-eabi/include/stdlib.h:
+/usr/arm-none-eabi/include/machine/ieeefp.h:
+/usr/arm-none-eabi/include/_ansi.h:
+/usr/arm-none-eabi/include/newlib-nano/newlib.h:
+/usr/arm-none-eabi/include/sys/config.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stddef.h:
+/usr/arm-none-eabi/include/sys/reent.h:
+/usr/arm-none-eabi/include/_ansi.h:
+/usr/arm-none-eabi/include/sys/cdefs.h:
+/usr/arm-none-eabi/include/sys/_types.h:
+/usr/arm-none-eabi/include/machine/_types.h:
+/usr/arm-none-eabi/include/sys/lock.h:
+/usr/arm-none-eabi/include/machine/stdlib.h:
+/usr/arm-none-eabi/include/string.h:
+/usr/arm-none-eabi/include/sys/string.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/include/stdio.h:
+/usr/arm-none-eabi/include/stdio.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdarg.h:
+/usr/arm-none-eabi/include/sys/stdio.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/fmt.h:
+/usr/arm-none-eabi/include/time.h:
+/usr/arm-none-eabi/include/machine/time.h:
+/usr/arm-none-eabi/include/sys/types.h:
+/usr/arm-none-eabi/include/sys/_pthreadtypes.h:
+/usr/arm-none-eabi/include/machine/types.h:
+/usr/arm-none-eabi/include/sys/timespec.h:
+/usr/arm-none-eabi/include/sys/_timespec.h:
+/usr/arm-none-eabi/include/unistd.h:
+/usr/arm-none-eabi/include/sys/unistd.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/bitarithm.h:
+/home/haron/Documents/gits/iot_prak/RIOT/cpu/nrf52/include/cpu_conf.h:
+/home/haron/Documents/gits/iot_prak/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_name_change.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/core_cm4.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_version.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_compiler.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/cmsis_gcc.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/pkg/cmsis/CMSIS/Core/Include/mpu_armv7.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_bitfields.h:
+/home/haron/Documents/gits/iot_prak/RIOT/build/nrf5x_nrfx_mdk/nrf52/vendor/nrf52840_peripherals.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/kernel_defines.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/modules.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/riot_version.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/compiler_hints.h:
+/home/haron/Documents/gits/iot_prak/RIOT/core/lib/include/container.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/ipv6/addr.h:
+/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdbool.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/byteorder.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/endian.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/unaligned.h:
+/home/haron/Documents/gits/iot_prak/RIOT/sys/include/net/ipv4/addr.h:
